@@ -85,7 +85,7 @@ public class temporaire1 extends JFrame {
 				String nb = text.getText();
 				
 			        int compteur = 0;
-			        for (int i = 1; compteur < Integer.parseInt(nb); i++)
+			        for (int i = 2; compteur < Integer.parseInt(nb); i++)
 			            {
 			            if ( i % 2 == 0 && i / 2 > 1)
 			                continue;
