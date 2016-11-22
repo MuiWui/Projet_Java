@@ -103,6 +103,24 @@ public class CarreNombre extends JFrame {
 			       
 			  }
 		}
+		
+		/*à remplacer par 
+		 
+		  	public boolean isPremier(int n) {
+			boolean isPremier = true;
+				if (n < 0) {
+					isPremier = false;
+				} else if (n != 0 && n != 1) {
+				for (int i = 2; i <= n/2; i++) {
+					if (n != i && n % i == 0) {
+						isPremier = false;
+						break;
+					}
+				}
+			}
+			return isPremier;
+			}
+		 */
 	
 		class Bouton2Listener implements ActionListener{
 			public void actionPerformed(ActionEvent e){
